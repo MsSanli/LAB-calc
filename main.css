@@ -1,3 +1,79 @@
 body {
-  background-color: hotpink;
+  background-color: white;
+}
+
+.container {
+  display: flex;
+  width: 400px;
+  flex-direction: column;
+
+}
+
+.calculator-display {
+  font-size: 40px;
+  background-color: black;
+  color: #d8d9db;
+  text-align: right;
+
+}
+
+.btn {
+  background: #d8d9db;
+  display: inline-block;
+  font-size: 40px;
+  border-radius: 1px;
+  border-color: black;
+  width: 25%;
+  align-items: flex-start;
+}
+
+
+#clear-button {
+  width: 192px;
+}
+
+.math {
+  background-color: orange;
+  width: 75px
+}
+
+
+.btn.zero {
+  width: 290px;
+}
+
+/* trying button hover colors */
+
+#clear-button:hover{
+  background-color: #d8d9db;
+}
+
+#clear-button:active{
+  background-color: #dd8d37;
+}
+
+.btn.zero:hover{
+background-color: #ebebeb;
+}
+
+.btn.zero:active{
+  background-color: #dd8d37;
+  }
+  
+
+.btn.math:hover {
+  background-color: #ebebeb;
+}
+
+.btn.math:active {
+  background-color: #dd8d37;
+}
+
+
+/* active number buttons still don't work */
+.btn.num:active{
+  background-color: #dd8d37;
+}
+.btn.num:hover{
+  background-color: #d8d9db;
 }
